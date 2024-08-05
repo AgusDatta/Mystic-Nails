@@ -9,7 +9,7 @@ import Cards from '../components/Cards.astro'
 	<main>
 		<Header />
 		<div class="flex justify-center">
-			<div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+			<div class="grid gap-8 sm:grid-cols-1 lg:grid-cols-3">
 				<a href="./diseños">
 					<Cards
 					title="Mis Diseños"
@@ -17,16 +17,20 @@ import Cards from '../components/Cards.astro'
 					image="/src/images/diseño-verde.jpg"
 				/>
 				</a>
-				<Cards 
+				<a href="./tecnicas">
+					<Cards 
 					title="Técnicas"
 					description=""
 					image="/src/images/Tecnicas.jpeg"
 				/>
+				</a>
+				<a href="./reservas">
 				<Cards 
 					title="Reservas"
 					description=""
 					image="/src/images/calendario-verde.webp"
 				/>
+				</a>
 			</div>
 		</div>
 	</main>
